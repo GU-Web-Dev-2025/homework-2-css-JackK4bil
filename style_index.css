@@ -1,0 +1,77 @@
+.container {
+    display: grid;
+    grid-template-columns: 1fr 2fr;
+    grid-template-rows: auto 1fr;
+    height: 100vh;
+    gap: 5px;
+}
+
+/* Header & Navigation Area */
+.panel1 {
+    grid-column: 1 / 3;
+    background: black;
+    padding: 20px;
+    display: flex;
+    align-items: center;
+    gap: 20px;
+}
+
+.panel1 .medallion-img {
+    width: 80px;
+    height: 80px;
+    border-radius: 50%;
+    border: 3px solid slategray;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.3);
+    transition: all 0.5s ease;
+    background-color: #000;
+}
+
+.panel1 .medallion-img:hover {
+    box-shadow: 0 0 80px rgba(220, 20, 60, .8);
+    transform: scale(1.05);
+}
+
+.panel1 nav a:link {
+    color: white;
+    text-decoration: none;
+    font-family: 'MedievalSharp';
+}
+
+.panel1 nav a:visited {
+    color: red;
+}
+
+.panel1 nav a:hover {
+    color: rgb(139, 14, 39);;
+}
+
+/* Introduction Section */
+img {
+    border-radius: 30px;
+}
+
+.panel2 {
+    background: slategray;
+    padding: 20px;
+    width: 700px;
+    font-family: 'MedievalSharp';
+}
+
+.panel2>p {
+    border-top: 5px solid black;
+    border-bottom: 5px solid black;
+    padding: 10px;
+}
+
+/* Main Content Area */
+.panel3 {
+    background: maroon;
+    padding: 20px;
+    width: auto;
+    font-family: 'MedievalSharp';
+}
+
+.panel3 ul {
+    list-style-type: square;
+}
+
