@@ -1,3 +1,12 @@
+/*
+    Name: Jack Kabil
+    Class: CPSC 332 Web Development
+    Assignment: Homework 2
+    Last Modified: 09/16/2025
+
+    EXTRA CREDIT custom font
+*/
+
 .container {
     display: grid;
     grid-template-columns: 1fr 3fr;
@@ -27,14 +36,14 @@
 }
 
 .panel1 .medallion-img:hover {
-    box-shadow: 0 0 80px rgba(220, 20, 60, .8);
+    box-shadow: 0 0 80px rgba(220, 20, 60, .8); /**/
     transform: scale(1.05);
 }
 
 .panel1 nav a:link {
     color: white;
     text-decoration: none;
-    font-family: 'MedievalSharp';
+    font-family: 'MedievalSharp'; /* EXTRA CREDIT custom font */
 }
 
 .panel1 nav a:visited {
@@ -54,7 +63,7 @@
     background: slategray;
     padding: 20px;
     width: 450px;
-    font-family: 'MedievalSharp';
+    font-family: 'MedievalSharp'; /* EXTRA CREDIT custom font */
 }
 
 .panel2>p {
@@ -68,11 +77,11 @@
     background: maroon;
     padding: 20px;
     width: auto;
-    font-family: 'MedievalSharp';
+    font-family: 'MedievalSharp'; /* EXTRA CREDIT custom font */
 }
 
 .panel3 h2 {
-    font-family: 'Germania One';
+    font-family: 'Germania One'; /* EXTRA CREDIT custom font */
 }
 
 .panel3 ul {
