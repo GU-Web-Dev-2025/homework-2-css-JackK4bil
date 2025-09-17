@@ -42,11 +42,11 @@
 }
 
 .panel1 nav a:hover {
-    color: rgb(139, 14, 39);;
+    color: rgb(139, 14, 39);
 }
 
 /* Introduction Section */
-img {
+.panel2 img {
     border-radius: 30px;
 }
 
@@ -71,8 +71,26 @@ img {
     font-family: 'MedievalSharp';
 }
 
+.panel3 h2 {
+    font-family: 'Germania One';
+}
+
 .panel3 ul {
     list-style-type: square;
+}
+
+.panel3 ul li {
+    background: rgba(92, 118, 145, 1);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    width: max-content;
+}
+
+.panel3 ul li:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.4);
 }
 
 .panel3 table, th, tr, td {
@@ -86,10 +104,56 @@ img {
     margin-bottom: 40px;
 }
 
+.panel3 tr:not(:first-child):hover {
+    transform: translateY(-2px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 1);
+}
+
 .panel3 tr:nth-child(odd) {
     background-color: rgb(112, 128, 144);;
 }
 
 .panel3 tr:nth-child(even) {
     background-color: rgb(92, 118, 145);;
+}
+
+.panel3 ol li {
+    background: rgba(92, 118, 145, 1);
+    padding: 15px;
+    margin: 10px;
+    border-radius: 10px;
+    transition: transform 0.3s ease;
+    width: max-content;
+}
+
+.panel3 ol li img {
+    max-height: 0;
+    overflow: hidden;
+    transition: max-height 0.3s ease;
+    margin: 5px 5px 0 0;
+    border-radius: 8px;
+    display: inline-block;
+    width: 300px;
+    object-fit: cover;
+}
+
+.panel3 ol li:hover img {
+    max-height: 150px;
+    margin-top: 10px;
+}
+
+.footer {
+    margin-bottom: 10px;
+}
+
+.footer a:link {
+    color:white
+}
+
+.footer a:visited {
+    color:white
+}
+
+.footer a:hover {
+    color: rgb(92, 118, 145);
 }
